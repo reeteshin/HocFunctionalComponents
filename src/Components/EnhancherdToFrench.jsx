@@ -19,6 +19,7 @@ function ToFrench(props) {
       <p>{final.translatedText}</p>
       <button
         onClick={() => {
+          // this is Hoc Function We Are getting this through Props
           ConvertToMotherLang(text,LanguageCode);
         }}
       >

@@ -20,7 +20,9 @@ function Hoc(OrignalCompo, data)
         SetFinalData(await res.json());
       }  
    
-         
+
+      // What ever chenges the HOC Doing we through it`s functionality 
+      // We have to pass these changes to caller function
      
 
       return <OrignalCompo final={final} ConvertToMotherLang={ConvertToMotherLang} />
